@@ -12,7 +12,7 @@ function Header(){
 
   return (
     <header className="border-b border-black ">
-      <nav className="flex items-center justify-between px-8 py-5">
+      <nav className="flex items-center justify-between px-8 py-2">
         <div>
           <a href="#">
             <img src={logo} loading="lazy" alt="MonoNote" />
