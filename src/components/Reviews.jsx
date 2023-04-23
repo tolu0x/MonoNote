@@ -6,11 +6,15 @@ import tobi from "../assets/tobi.png";
 import tomiwa from "../assets/tomiwa.png";
 import timi from "../assets/timi.png";
 import ayomide from "../assets/ayomide.png";
+import playStore from "../assets/play-store.svg"
+import appStore from "../assets/app-store.svg"
+import leftDoodle from "../assets/left-doodle.png";
+import rightDoodle from "../assets/right-doodle.png";
 
 
 const Reviews = () => {
   return (
-    <section className="py-6 border-b-2 border-black">
+    <section className="py-6 border-b-2 border-black relative h-[50rem]">
       <div className="flex flex-col mb-5 gap-3 items-center justify-center">
         <img src={stars} />
         <h2 className="text-3xl">Discover why our users love MonoNote</h2>
@@ -105,6 +109,21 @@ const Reviews = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex flex-col gap-7 items-center justify-center pt-20">
+        <h2 className="text-center text-3xl w-[28rem]">
+          Get Started today and download{" "}
+          <span className="font-bold">MonoNote</span> for free.
+        </h2>
+
+        <div className="flex items-center justify-between gap-7">
+          <img src={playStore} />
+          <img src={appStore} />
+        </div>
+      </div>
+
+      <img src={leftDoodle} className="absolute bottom-0 left-0" />
+      <img src={rightDoodle} className="absolute bottom-0 right-0" />
     </section>
   );
 }
