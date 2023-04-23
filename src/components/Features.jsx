@@ -10,7 +10,7 @@ const Features = () => {
     <section className="py-4 border-b-2 border-black">
       <div className="flex justify-center items-center">
         <h1 className="text-center font-medium text-3xl pt-2 pb-7 w-96">
-        Features that allows you to reach your needs faster.
+        Features that allows you to reach your needs faster
         </h1>
       </div>
       
