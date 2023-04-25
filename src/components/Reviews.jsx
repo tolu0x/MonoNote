@@ -20,7 +20,7 @@ const Reviews = () => {
         <h2 className="text-3xl">Discover why our users love MonoNote</h2>
       </div>
 
-      <div className="flex items-center justify-center gap-3 px-3 py-5">
+      <div className="flex items-center justify-center gap-3 px-3 pt-5 pb-20">
         <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start">
           <img src={quoteIcon} />
 
@@ -110,7 +110,7 @@ const Reviews = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-7 items-center justify-center pt-20">
+      <div className="flex flex-col gap-7 items-center justify-center border-t-2 border-black pt-20">
         <h2 className="text-center text-3xl w-[28rem]">
           Get Started today and download{" "}
           <span className="font-bold">MonoNote</span> for free.
