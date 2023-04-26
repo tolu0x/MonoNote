@@ -11,7 +11,7 @@ function Header(){
   }
 
   return (
-    <header className="border-b border-black ">
+    <header className="border-b border-black fixed top-0 left-0 right-0">
       <nav className="flex items-center justify-between px-8 py-2">
         <div>
           <a href="#">
