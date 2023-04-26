@@ -5,6 +5,15 @@
 @tailwind utilities;
 
 
+@layer utilities{
+  @variants responsive{
+    .width-unset{
+      width: unset;
+    }
+  }
+}
+
+
 
 :root {
   font-family: "Manrope", sans-serif;
