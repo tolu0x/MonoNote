@@ -124,8 +124,8 @@ const Reviews = () => {
         </div>
       </div>
 
-      <img src={leftDoodle} className="absolute bottom-0 left-0 sm:w-[50%]" />
-      <img src={rightDoodle} className="absolute bottom-0 right-0 sm:w-[50%]" />
+      <img src={leftDoodle} className="absolute bottom-0 left-0 sm:w-[50%] z-20" />
+      <img src={rightDoodle} className="absolute bottom-0 right-0 sm:w-[50%] z-20" />
     </section>
   );
 }
