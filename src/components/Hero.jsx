@@ -4,7 +4,7 @@ import heroImg from "../assets/notes.png"
 const Hero = () => {
   return (
     <section>
-      <div className="flex justify-center items-center py-4 border-black border-b-2 sm:flex-col sm:pt-9">
+      <div className="flex justify-center items-center pt-24 sm:pt-32 pb-4 border-black border-b-2 sm:flex-col sm:pt-9">
         <div className="lg:pl-0 md:pl-9 sm:px-7">
           <h1 className="font-medium text-3xl w-[32rem] pb-3 md:w-[25rem] sm:w-[20rem]">
             Simplify your life with <span className="font-bold">MonoNote</span>;
