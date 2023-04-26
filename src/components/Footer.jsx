@@ -6,7 +6,7 @@ import fbIcon from '../assets/fb-icon.png'
 const Footer = () => {
   return (
     <footer>
-      <div className="border-b-2 border-black py-16 px-10 flex items-center justify-between">
+      <div className="border-b-2 border-black py-16 px-10 flex items-center justify-between sm:flex-col sm:items-start sm:gap-9">
         <div>
           <h2 className="font-semibold text-2xl">MonoNote</h2>
           <p>The Ultimate digital notepad</p>

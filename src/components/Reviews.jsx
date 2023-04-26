@@ -14,14 +14,16 @@ import rightDoodle from "../assets/right-doodle.png";
 
 const Reviews = () => {
   return (
-    <section className="py-6 border-b-2 border-black relative h-[50rem]">
+    <section className="py-6 border-b-2 border-black relative lg:h-[60rem] md:h-[75rem] sm:h-[113rem]">
       <div className="flex flex-col mb-5 gap-3 items-center justify-center">
         <img src={stars} />
-        <h2 className="text-3xl">Discover why our users love MonoNote</h2>
+        <h2 className="text-3xl text-center sm:w-80 ">
+          Discover why our users love MonoNote
+        </h2>
       </div>
 
-      <div className="flex items-center justify-center gap-3 px-3 pt-5 pb-20">
-        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start">
+      <div className="flex items-center justify-center gap-3 px-3 pt-5 pb-20 lg:flex-nowrap md:flex-wrap sm:flex-col">
+        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start md:w-2/5 sm:w-full">
           <img src={quoteIcon} />
 
           <p className="w-full">
@@ -43,7 +45,7 @@ const Reviews = () => {
           </div>
         </div>
 
-        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start">
+        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start md:w-2/5 sm:w-full">
           <img src={quoteIcon} />
 
           <p className="w-full">
@@ -65,7 +67,7 @@ const Reviews = () => {
           </div>
         </div>
 
-        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start">
+        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start md:w-2/5 sm:w-full">
           <img src={quoteIcon} />
 
           <p className="w-full">
@@ -87,7 +89,7 @@ const Reviews = () => {
           </div>
         </div>
 
-        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start">
+        <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start md:w-2/5 sm:w-full">
           <img src={quoteIcon} />
 
           <p className="w-full">
@@ -110,8 +112,8 @@ const Reviews = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-7 items-center justify-center border-t-2 border-black pt-20">
-        <h2 className="text-center text-3xl w-[28rem]">
+      <div className="flex flex-col gap-7 items-center justify-center border-t-2 border-black py-44">
+        <h2 className="text-center text-3xl w-[28rem] sm:w-[21rem]">
           Get Started today and download{" "}
           <span className="font-bold">MonoNote</span> for free.
         </h2>
@@ -122,8 +124,8 @@ const Reviews = () => {
         </div>
       </div>
 
-      <img src={leftDoodle} className="absolute bottom-0 left-0" />
-      <img src={rightDoodle} className="absolute bottom-0 right-0" />
+      <img src={leftDoodle} className="absolute bottom-0 left-0 sm:w-[50%]" />
+      <img src={rightDoodle} className="absolute bottom-0 right-0 sm:w-[50%]" />
     </section>
   );
 }

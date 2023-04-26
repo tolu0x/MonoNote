@@ -9,12 +9,12 @@ const Features = () => {
   return (
     <section className="py-4 border-b-2 border-black">
       <div className="flex justify-center items-center">
-        <h1 className="text-center font-medium text-3xl pt-2 pb-7 w-96">
+        <h1 className="text-center font-medium text-3xl pt-2 pb-7 w-[24rem] sm:w-[19rem]">
         Features that allows you to reach your needs faster
         </h1>
       </div>
       
-      <div className="flex items-center justify-center gap-5 flex-wrap">
+      <div className="flex items-center justify-center gap-5 flex-wrap md:gap-9">
         <div className="flex items-start justify-center gap-4">
           <img src={chartIcon} />
           <div className="flex flex-col items-start justify-between">
