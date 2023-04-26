@@ -7,9 +7,9 @@ module.exports = {
       hoverOnlyWhenSupported: true,
     },
     screens: {
-      sm: "640px",
-      md: "720px",
-      lg: "1024px",
+      sm: { max: "650px" },
+      md: { min: "651px" },
+      lg: { min: "900px" },
     },
   },
   plugins: [],
