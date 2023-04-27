@@ -41,7 +41,7 @@ const reviewsData = [
     clientImg: new URL(`../assets/tomiwa.png`, import.meta.url).href,
     quoteIcon: new URL(`../assets/quote-icon.png`, import.meta.url).href,
     twtIcon: new URL(`../assets/twitter-icon.png`, import.meta.url).href,
-  },
+  }
 ];
 const Reviews = () => {
   return (
@@ -57,7 +57,7 @@ const Reviews = () => {
         {
           reviewsData.map((review) => {
             return (
-              <div className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start md:w-2/5 sm:w-full">
+              <div key={review.id} className="border border-black p-4 w-1/4 h-60 rounded-md gap-4 flex flex-col justify-center items-start md:w-2/5 sm:w-full">
                 <img src={review.quoteIcon} />
 
                 <p className="w-full">{review.body}</p>
