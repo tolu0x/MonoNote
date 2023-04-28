@@ -30,9 +30,6 @@ body{
 
 }
 
-.row-r:nth-child(2){
-  flex-direction: row-reverse;
-}
 
 #hamburger .line{
   width: 45px;
@@ -119,4 +116,8 @@ body{
   #hamburger {
     display: none;
   }
+
+  .row-r:nth-child(2){
+  flex-direction: row-reverse;
+}
 }  
