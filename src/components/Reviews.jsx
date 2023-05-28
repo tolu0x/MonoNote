@@ -68,7 +68,7 @@ const Reviews = () => {
 
                     <div className="flex flex-col items-start justify-center">
                       <p className="font-medium">{review.name}</p>
-                      <p>review.username</p>
+                      <p>{review.username}</p>
                     </div>
                   </div>
 
